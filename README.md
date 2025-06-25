@@ -52,8 +52,6 @@ Here's a walkthrough of implemented user stories:
 ## Notes
 The indication of an incorrect answer is given by a motion and a red glow around the flashcards.
 
-Describe any challenges encountered while building the app.
-
 ## License
 
     Copyright 2025 Aayusha Dhungana
