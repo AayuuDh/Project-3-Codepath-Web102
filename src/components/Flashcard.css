@@ -26,12 +26,12 @@
   75% { transform: translateX(10px); }
 }
 
-.red-border { border: 5px solid #f44336; } 
-.green-border { border: 5px solid #4CAF50; }
-.blue-border { border: 5px solid #2196F3; } 
-.orange-border { border: 5px solid #FF9800; }
-.purple-border { border: 5px solid #9C27B0; }
-.yellow-border { border: 5px solid #FFEB3B; }
+.red-border { border: 10px solid #f44336; } 
+.green-border { border: 10px solid #4CAF50; }
+.blue-border { border: 10px solid #2196F3; } 
+.orange-border { border: 10px solid #FF9800; }
+.purple-border { border: 10px solid #9C27B0; }
+.yellow-border { border: 10px solid #FFEB3B; }
 
 .flashcard-content {
   width: 100%;
