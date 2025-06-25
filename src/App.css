@@ -1,0 +1,94 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-set-info {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-set-info h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-set-info p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.continent-legend {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.legend-item {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.legend-item.red { background-color: #f44336; }
+.legend-item.green { background-color: #4CAF50; }
+.legend-item.blue { background-color: #2196F3; }
+.legend-item.orange { background-color: #FF9800; }
+.legend-item.purple { background-color: #9C27B0; }
+.legend-item.yellow { background-color: #FFEB3B; color: #333; }
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.nav-button, .shuffle-button {
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.nav-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.shuffle-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.shuffle-button:hover {
+  background-color: #26892a;
+  transform: translateY(-2px);
+}

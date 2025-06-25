@@ -1,0 +1,50 @@
+.guess-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.guess-input {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.guess-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-button,
+.reveal-button {
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.submit-button {
+  background-color: #ff9800;
+}
+
+.submit-button:hover {
+  background-color: #e68a00;
+}
+
+/* --- NEW STYLES --- */
+.reveal-button {
+  background-color: #6c757d;
+}
+
+.reveal-button:hover {
+  background-color: #5a6268;
+}
