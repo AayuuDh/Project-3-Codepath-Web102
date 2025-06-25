@@ -5,7 +5,7 @@ import StreakCounter from './components/StreakCounter';
 import './App.css';
 
 const initialCardSet = [
-    { question: 'Armenia.png', answer: 'Armenia', continent: 'Asia' },
+    { question: '${import.meta.env.BASE_URL}Armenia.png', answer: 'Armenia', continent: 'Asia' },
     { question: 'Australia.png', answer: 'Australia', continent: 'Oceania' },
     { question: 'Bahamas.png', answer: 'Bahamas', continent: 'North America' },
     { question: 'Bhutan.png', answer: 'Bhutan', continent: 'Asia' },
