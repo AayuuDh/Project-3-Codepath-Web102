@@ -20,7 +20,7 @@ function Flashcard({ card, showAnswer, guessStatus }) {
     >
       <div className="flashcard-content">
         <div className="flashcard-front">
-          <img src={`/${card.question}`} alt="Country Flag" className="flag-image" />
+          <img src={card.question} alt="Country Flag" className="flag-image" />
         </div>
         <div className="flashcard-back">
           {showAnswer && <p className="country-name">{card.answer}</p>}
